@@ -3,3 +3,27 @@
   padding: 2rem;
   text-align: center;
 }
+
+
+@media screen and (max-width: 940px) {
+  #root {
+    margin: 0;
+    padding: 2rem 0;
+  }
+  h1{
+    font-size: 0.5rem;
+  }
+  div .title{
+    margin-left: 10vw;
+  }
+  table{
+    width: 80vh;
+  }
+  th{
+    font-size: 0.6rem;
+  }
+
+  a.nav-link , div.navbar-nav{
+    padding: 0.5rem 0 !important;
+  }
+}
