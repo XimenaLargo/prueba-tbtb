@@ -1,6 +1,6 @@
 import "./App.css";
 import NavbarHeader from "./Components/NavbarHeader";
-import Table from "./Components/Table";
+import Table from "./Components/Routes/Table";
 
 function App() {
   return (

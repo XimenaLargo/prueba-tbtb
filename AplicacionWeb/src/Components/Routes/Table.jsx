@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import SearchBar from './SearchBar';
-import FilteredResults from './FilteredResults';
+import SearchBar from '../SearchBar';
+import FilteredResults from '../FilteredResults';
 
 export default function Table() {
   const [data, setData] = useState([]);
