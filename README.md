@@ -57,7 +57,15 @@ En este punto la aplicación deberia estar ejecutandose.
 
 👁 Se debe tener instalado Maven y Java 17
 
-1. Ejecutamos los siguiente comandos sobre la carpeta e-commerce:
+1. Antes de todo debemos reemplazar los campos de usuario y contraseña de la base de datos en el archivo de configuracion application.yml el cual se encuentra en esta ruta:
+```
+ src/main/java/resources/application.yml 
+```
+```
+    username: DB-USER
+    password: DB-PASSWORD
+``` 
+2. Ejecutamos los siguiente comandos sobre la carpeta e-commerce:
 ```
 mvn package
 ```
