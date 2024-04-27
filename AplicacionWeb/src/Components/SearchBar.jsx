@@ -11,7 +11,7 @@ export default function SearchBar({onSearch}) {
     };
   
     return (
-      <div className="input-group w-50">
+      <div className="input-group w-50 mt-4 mb-4">
         <span className="input-group-text"><FontAwesomeIcon icon={faMagnifyingGlass} /></span>
         <input
           type="text"

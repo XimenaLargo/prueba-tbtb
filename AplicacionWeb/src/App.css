@@ -19,11 +19,14 @@
   table{
     width: 80vh;
   }
-  th{
-    font-size: 0.6rem;
+  th,td{
+    font-size: 0.55rem;
   }
 
   a.nav-link , div.navbar-nav{
     padding: 0.5rem 0 !important;
+  }
+  div .input-group{
+    width: 85vw !important;
   }
 }
