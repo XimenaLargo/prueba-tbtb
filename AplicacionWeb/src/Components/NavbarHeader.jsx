@@ -10,8 +10,8 @@ export default function NavbarHeader() {
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className='ms-auto pe-5'>
-            <Nav.Link className='pe-5 fs-4' href="#home">Table</Nav.Link>
-            <Nav.Link className='pe-5 fs-4' href="#link">Cards</Nav.Link>
+            <Nav.Link className='pe-5 fs-4' href="/table">Table</Nav.Link>
+            <Nav.Link className='pe-5 fs-4' href="/cards">Cards</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
