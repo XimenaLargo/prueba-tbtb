@@ -8,6 +8,11 @@
 - Spring Boot 3.2.5
 - React
 
+Clone este repositorio
+```
+$ git clone https://github.com/XimenaLargo96/prueba-tbtb.git
+```
+
 ### *Parte I: Base de datos*
 
 Dentro de la carpeta scripts se encuentran los scrips para la creación de la base de datos, inserccion de datos y consultas sql realizadas a la misma
